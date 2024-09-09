@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+table {
+    margin: 20px;
+    font-size: 16px;
+}
+.tone {
+    border-collapse: collapse;
+}
+th, td{
+    border: 2px solid black;
+    padding: 4px;
+}
+th {
+    background-color: green;
+    color: white;
+}
+.oneth {
+    width: 150px;
+}
+.twoth {
+    width: 400px;
+}
+.threeth {
+    width: 200px;
+}
+.onetr {
+    height: 40px;
+}
+.twotr {
+    height: 60px;
+}
+.threetr {
+    height: 80px;
+}
+.fourtr {
+    height: 50px;
+}
+.twotd1 {
+    text-align: left;
+    vertical-align: top;
+}
+.twotd2 {
+    text-align: center;
+    vertical-align: middle;
+}
+.twotd3{
+    text-align: right;
+    vertical-align:  bottom;
+}
+
+.ttwo {
+    border-spacing: 2px;
+}
+.tthree {
+    border-collapse: collapse;
+}
+.tthreetr>th {
+    background-color: orange;
+    color: blue;
+    width: 200px;
+}
